@@ -1,0 +1,1 @@
+"import unittest\nfrom main import add\n\nclass TestMain(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(add(1, 2), 3)\n        self.assertEqual(add(-1, 1), 0)\n        self.assertEqual(add(-1, -1), -2)\n        self.assertEqual(add(0, 0), 0)\n\nif __name__ == \"__main__\":\n    unittest.main()" 
